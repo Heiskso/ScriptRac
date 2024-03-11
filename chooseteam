@@ -18,3 +18,5 @@ repeat
         end
     end)
 until game.Players.LocalPlayer.Team ~= nil
+wait()
+game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer("TravelDressrosa")
