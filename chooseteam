@@ -20,3 +20,5 @@ repeat
 until game.Players.LocalPlayer.Team ~= nil
 wait()
 game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer("TravelDressrosa")
+end
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Heiskso/BountyKoCuttay/main/TeleportToCafe"))()
